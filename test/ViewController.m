@@ -18,6 +18,9 @@
   [super viewDidLoad];
   // Do any additional setup after loading the view, typically from a nib.
 }
+- (IBAction)test:(id)sender {
+  printf("its working!!!");
+}
 
 - (void)didReceiveMemoryWarning {
   [super didReceiveMemoryWarning];
