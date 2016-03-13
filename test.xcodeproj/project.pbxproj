@@ -15,6 +15,7 @@
 		3A3C60BB1C8A49E000C29F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3C60B91C8A49E000C29F8B /* LaunchScreen.storyboard */; };
 		3A3C60C61C8A49E100C29F8B /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3C60C51C8A49E100C29F8B /* testTests.m */; };
 		3A3C60D11C8A49E100C29F8B /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3C60D01C8A49E100C29F8B /* testUITests.m */; };
+		BC3F60DF1C9533660036E844 /* TouchInsideNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3F60DE1C9533660036E844 /* TouchInsideNavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3A3C60CC1C8A49E100C29F8B /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3C60D01C8A49E100C29F8B /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		3A3C60D21C8A49E100C29F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3F60DD1C9533660036E844 /* TouchInsideNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchInsideNavigationBar.h; sourceTree = "<group>"; };
+		BC3F60DE1C9533660036E844 /* TouchInsideNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchInsideNavigationBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		3A3C60AA1C8A49E000C29F8B /* test */ = {
 			isa = PBXGroup;
 			children = (
+				BC3F60DD1C9533660036E844 /* TouchInsideNavigationBar.h */,
+				BC3F60DE1C9533660036E844 /* TouchInsideNavigationBar.m */,
 				3A3C60AE1C8A49E000C29F8B /* AppDelegate.h */,
 				3A3C60AF1C8A49E000C29F8B /* AppDelegate.m */,
 				3A3C60B11C8A49E000C29F8B /* ViewController.h */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A3C60B31C8A49E000C29F8B /* ViewController.m in Sources */,
+				BC3F60DF1C9533660036E844 /* TouchInsideNavigationBar.m in Sources */,
 				3A3C60B01C8A49E000C29F8B /* AppDelegate.m in Sources */,
 				3A3C60AD1C8A49E000C29F8B /* main.m in Sources */,
 			);
@@ -498,6 +504,7 @@
 				3A3C60D71C8A49E100C29F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A3C60D81C8A49E100C29F8B /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				3A3C60DA1C8A49E100C29F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A3C60DB1C8A49E100C29F8B /* Build configuration list for PBXNativeTarget "testUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				3A3C60DD1C8A49E100C29F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
